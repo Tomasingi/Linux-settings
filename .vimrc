@@ -41,8 +41,6 @@ set nofoldenable
 set backupdir=~/.vimtmp//
 set directory=~/.vimtmp//
 
-set clipboard=unnamedplus
-
 nmap <Space> :
 noremap n j
 noremap j n

@@ -40,6 +40,22 @@
         {
             "before": [" "],
             "after": [":"]
+        },
+        {
+            "before": ["d", "n"],
+            "after": ["d", "j"]
+        },
+        {
+            "before": ["d", "e"],
+            "after": ["d", "k"]
+        },
+        {
+            "before": ["c", "n"],
+            "after": ["c", "j"]
+        },
+        {
+            "before": ["c", "e"],
+            "after": ["c", "k"]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
