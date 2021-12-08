@@ -1,0 +1,38 @@
+#!/bin/bash
+
+es() {
+	if [ $# -ne 1 ]; then
+		vim ~/.skriftur/scripts-general;
+	fi
+	while getopts "g" opt; do
+		case $opt in
+			g)
+				vim ~/.skriftur/scripts-git
+				;;
+			\?)
+				echo "Invalid option: -$OPTARG" >&2
+				;;
+		esac
+	done
+}
+
+..() {
+	cd ..
+}
+
+/() {
+	cd /
+}
+
+-() {
+	cd -
+}
+
+zippo() {
+	unzip \*.zip
+	rm \*.zip
+}
+
+brains() {
+	~/Forritun/Brains/brains < $1
+}

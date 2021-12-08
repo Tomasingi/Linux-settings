@@ -1,0 +1,9 @@
+#!/bin/bash
+
+alias ga="git add"
+complete -F _complete_alias ga
+alias gc="git commit"
+alias gp="git push"
+alias gpl="git pull"
+alias gs="git status"
+alias gaa="git add ."

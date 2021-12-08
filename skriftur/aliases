@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Completion stuff
+source ~/.bash_completion.d/complete_alias
+
+
+# Directories
+alias sk="cd ~/Desktop"
+alias keys="cd /usr/share/X11/xkb"
+
+# Applications
+alias nt="nautilus ."
+alias op="xdg-open"
+complete -F _complete_alias op
+
+# Vim
+alias as="vim ~/Linux-settings/skriftur/aliases"
+alias bs="vim ~/Linux-settings/bashrc"
+
+# Misc
+alias c="xclip -selection clipboard"
+alias v="xclip -o -selection clipboard"
+
+# ls
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls'
+
+# Build
+alias sv="~/Linux-settings/build.sh"
