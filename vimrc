@@ -42,7 +42,14 @@ set backupdir=~/.vimtmp//
 set directory=~/.vimtmp//
 
 nmap <Space> :
+
+" Colemak-specific
 noremap n j
 noremap j n
 noremap e k
 noremap k e
+
+" Select all
+vnoremap ii <Esc>ggVG
+nnoremap dii ggdG
+nnoremap cii ggcG
