@@ -1,0 +1,63 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "editor.tabSize": 2,
+    "explorer.confirmDelete": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "jupyter.defaultCellMarker": "#--",
+    "python.defaultInterpreterPath": "~/snek/bin/python3",
+    "window.title": "${dirty}💩 ${activeEditorShort}",
+    "editor.linkedEditing": true,
+    "jupyter.askForKernelRestart": false,
+    "notebook.output.textLineLimit": 500,
+    "window.zoomLevel": -2,
+    "vim.foldfix": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.untitled.hint": "hidden",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["n"],
+            "after": ["j"]
+        },
+        {
+            "before": ["j"],
+            "after": ["n"]
+        },
+        {
+            "before": ["e"],
+            "after": ["k"]
+        },
+        {
+            "before": ["k"],
+            "after": ["e"]
+        },
+        {
+            "before": [" "],
+            "after": [":"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["n"],
+            "after": ["j"]
+        },
+        {
+            "before": ["j"],
+            "after": ["n"]
+        },
+        {
+            "before": ["e"],
+            "after": ["k"]
+        },
+        {
+            "before": ["k"],
+            "after": ["e"]
+        }
+    ]
+}
