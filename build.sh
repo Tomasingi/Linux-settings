@@ -5,6 +5,7 @@
 # Directory of this script
 WD="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
+cp $WD/profile ~/.profile
 cp $WD/bashrc ~/.bashrc
 cp -TR $WD/skriftur ~/.skriftur
 

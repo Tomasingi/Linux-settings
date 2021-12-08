@@ -28,3 +28,4 @@ alias l='ls'
 
 # Build
 alias sv="~/Linux-settings/build.sh"
+alias ssv="~/Linux-settings/sbuild.sh"

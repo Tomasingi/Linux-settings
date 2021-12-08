@@ -9,7 +9,7 @@ All under /usr/share/X11/xkb/symbols/
     key <MENU> {        [ Alt_L                 ]       };
 
 //    key <CAPS> {        [ Caps_Lock             ]       };
-    key <CAPS> {        [ Control_R             ]       };
+    key <CAPS> {        [ Control_L             ]       };
 
 //    key  <INS> {        [  Insert            ]       };
     key  <INS> {        [  Caps_Lock            ]       };
