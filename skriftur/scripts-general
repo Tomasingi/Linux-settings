@@ -2,12 +2,12 @@
 
 es() {
 	if [ $# -ne 1 ]; then
-		vim ~/.skriftur/scripts-general;
+		vim ~/Linux-settings/skriftur/scripts-general;
 	fi
 	while getopts "g" opt; do
 		case $opt in
 			g)
-				vim ~/.skriftur/scripts-git
+				vim ~/Linux-settings/skriftur/scripts-git
 				;;
 			\?)
 				echo "Invalid option: -$OPTARG" >&2

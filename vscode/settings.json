@@ -38,6 +38,14 @@
             "after": ["e"]
         },
         {
+            "before": ["i"],
+            "after": ["l"]
+        },
+        {
+            "before": ["l"],
+            "after": ["i"]
+        },
+        {
             "before": [" "],
             "after": [":"]
         },
@@ -50,12 +58,20 @@
             "after": ["d", "k"]
         },
         {
+            "before": ["d", "i"],
+            "after": ["d", "l"]
+        },
+        {
             "before": ["c", "n"],
             "after": ["c", "j"]
         },
         {
             "before": ["c", "e"],
             "after": ["c", "k"]
+        },
+        {
+            "before": ["c", "i"],
+            "after": ["c", "l"]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
@@ -74,6 +90,14 @@
         {
             "before": ["k"],
             "after": ["e"]
-        }
+        },
+        {
+            "before": ["i"],
+            "after": ["l"]
+        },
+        {
+            "before": ["l"],
+            "after": ["i"]
+        },
     ]
 }
