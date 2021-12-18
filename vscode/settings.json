@@ -43,6 +43,10 @@
         },
         {
             "before": ["l"],
+            "after": ["u"]
+        },
+        {
+            "before": ["u"],
             "after": ["i"]
         },
         {
@@ -97,6 +101,10 @@
         },
         {
             "before": ["l"],
+            "after": ["u"]
+        },
+        {
+            "before": ["u"],
             "after": ["i"]
         }
     ]

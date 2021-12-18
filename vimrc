@@ -49,7 +49,8 @@ noremap j n
 noremap e k
 noremap k e
 noremap i l
-noremap l i
+noremap l u
+noremap u i
 
 " Select all
 vnoremap ii <Esc>ggVG
