@@ -76,6 +76,10 @@
         {
             "before": ["c", "i"],
             "after": ["c", "l"]
+        },
+        {
+            "before": ["<S-u>"],
+            "after": ["<S-i>"]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
