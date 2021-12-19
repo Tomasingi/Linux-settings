@@ -26,20 +26,64 @@
             "after": ["j"]
         },
         {
+            "before": ["<S-n>"],
+            "after": ["<S-j>"]
+        },
+        {
+            "before": ["d", "n"],
+            "after": ["d", "j"]
+        },
+        {
+            "before": ["c", "n"],
+            "after": ["c", "j"]
+        },
+        {
             "before": ["j"],
             "after": ["n"]
+        },
+        {
+            "before": ["<S-j>"],
+            "after": ["<S-n>"]
         },
         {
             "before": ["e"],
             "after": ["k"]
         },
         {
+            "before": ["<S-e>"],
+            "after": ["<S-k>"]
+        },
+        {
+            "before": ["d", "e"],
+            "after": ["d", "k"]
+        },
+        {
+            "before": ["c", "e"],
+            "after": ["c", "k"]
+        },
+        {
             "before": ["k"],
             "after": ["e"]
         },
         {
+            "before": ["<S-k>"],
+            "after": ["<S-e>"]
+        },
+        {
             "before": ["i"],
             "after": ["l"]
+        },
+        {
+            "before": ["<S-i>"],
+            "after": ["<S-l>"]
+        },
+        {
+            "before": ["d", "i"],
+            "after": ["d", "l"]
+        },
+        {
+            "before": ["c", "i"],
+            "after": ["c", "l"]
         },
         {
             "before": ["l"],
@@ -50,36 +94,24 @@
             "after": ["i"]
         },
         {
-            "before": [" "],
-            "after": [":"]
-        },
-        {
-            "before": ["d", "n"],
-            "after": ["d", "j"]
-        },
-        {
-            "before": ["d", "e"],
-            "after": ["d", "k"]
-        },
-        {
-            "before": ["d", "i"],
-            "after": ["d", "l"]
-        },
-        {
-            "before": ["c", "n"],
-            "after": ["c", "j"]
-        },
-        {
-            "before": ["c", "e"],
-            "after": ["c", "k"]
-        },
-        {
-            "before": ["c", "i"],
-            "after": ["c", "l"]
-        },
-        {
             "before": ["<S-u>"],
             "after": ["<S-i>"]
+        },
+        {
+            "before": ["d", "u"],
+            "after": ["d", "i"]
+        },
+        {
+            "before": ["c", "u"],
+            "after": ["c", "i"]
+        },
+        {
+            "before": ["y", "u"],
+            "after": ["y", "i"]
+        },
+        {
+            "before": [" "],
+            "after": [":"]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
