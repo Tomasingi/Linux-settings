@@ -16,6 +16,7 @@ complete -F _complete_alias op
 # Vim
 alias as="vim ~/Linux-settings/skriftur/aliases"
 alias bs="vim ~/Linux-settings/bashrc"
+alias tm="vim temp"
 
 # Misc
 alias c="xclip -selection clipboard"
