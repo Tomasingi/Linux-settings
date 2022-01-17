@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Decreases brightness
+
+MAX_BR="$(cat /sys/class/backlight/intel_backlight/max_brightness)"
+BR="$(cat /sys/class/backlight/intel_backlight/brightness)"
+NEW_BR="$(python3 ~/.skriftur/python/brightness_down.py $MAX_BR $BR)"
+echo $NEW_BR > /sys/class/backlight/intel_backlight/brightness

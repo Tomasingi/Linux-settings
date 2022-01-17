@@ -92,4 +92,4 @@ fi
 set -o vi
 
 eval "$(starship init bash)"
-for f in ~/.skriftur/*; do source "$f"; done
+for f in ~/.skriftur/bash/*; do source "$f"; done
