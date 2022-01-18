@@ -17,9 +17,30 @@
     "jupyter.askForKernelRestart": false,
     "notebook.output.textLineLimit": 500,
     "window.zoomLevel": -2,
-    "vim.foldfix": true,
     "files.trimTrailingWhitespace": true,
     "workbench.editor.untitled.hint": "hidden",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "--shell-escape",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%.tex"
+            ]
+        }
+    ],
+    "vim.foldfix": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": ["n"],

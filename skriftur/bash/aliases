@@ -14,7 +14,7 @@ alias op="xdg-open"
 complete -F _complete_alias op
 
 # Vim
-alias as="vim ~/Linux-settings/skriftur/aliases"
+alias as="vim ~/Linux-settings/skriftur/bash/aliases"
 alias bs="vim ~/Linux-settings/bashrc"
 alias tm="vim temp"
 

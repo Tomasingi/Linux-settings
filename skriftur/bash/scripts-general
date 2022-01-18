@@ -2,7 +2,7 @@
 
 es() {
 	if [ $# -ne 1 ]; then
-		vim ~/Linux-settings/skriftur/scripts-general;
+		vim ~/Linux-settings/skriftur/bash/scripts-general;
 	fi
 	while getopts "g" opt; do
 		case $opt in
