@@ -67,6 +67,6 @@ noremap l u
 noremap u i
 
 " Select all
-vnoremap ii <Esc>ggVG
-nnoremap dii ggdG
-nnoremap cii ggcG
+vnoremap uu <Esc>ggVG
+nnoremap duu ggdG
+nnoremap cuu ggcG
