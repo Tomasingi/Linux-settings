@@ -133,6 +133,14 @@
         {
             "before": [" "],
             "after": [":"]
+        },
+        {
+            "before": ["d", "i", "i"],
+            "after": ["g", "g", "d", "G"]
+        },
+        {
+            "before": ["c", "i", "i"],
+            "after": ["g", "g", "c", "G"]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
@@ -179,6 +187,10 @@
         {
             "before": ["<S-u>"],
             "after": ["<S-i>"]
+        },
+        {
+            "before": ["i", "i"],
+            "after": ["<Esc>", "g", "g", "V", "G"]
         }
     ]
 }
