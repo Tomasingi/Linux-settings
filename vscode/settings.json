@@ -14,7 +14,7 @@
     "python.defaultInterpreterPath": "~/snek/bin/python3",
     "window.title": "${dirty}💩 ${activeEditorShort}",
     "editor.linkedEditing": true,
-    "editor.ruler": 80,
+    "editor.rulers": [80],
     "jupyter.askForKernelRestart": false,
     "notebook.output.textLineLimit": 500,
     "window.zoomLevel": 0,
