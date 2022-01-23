@@ -25,6 +25,7 @@ complete -F _complete_alias tx
 # Misc
 alias c="xclip -selection clipboard"
 alias v="xclip -o -selection clipboard"
+alias cl-"clear"
 
 # ls
 alias ll='ls -alF'
