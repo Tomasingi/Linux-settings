@@ -41,5 +41,5 @@
             ]
         }
     ],
-    "vim.foldfix": true,
+    "vim.foldfix": true
 }
