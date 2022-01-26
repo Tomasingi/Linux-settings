@@ -44,15 +44,15 @@ set directory=~/.vimtmp//
 nmap <Space> :
 
 " Colemak-specific
-noremap n j
-noremap j n
-noremap e k
-noremap k e
-noremap i l
-noremap l u
-noremap u i
+" noremap n j
+" noremap j n
+" noremap e k
+" noremap k e
+" noremap i l
+" noremap l u
+" noremap u i
 
 " Select all
-vnoremap uu <Esc>ggVG
-nnoremap duu ggdG
-nnoremap cuu ggcG
+" vnoremap uu <Esc>ggVG
+" nnoremap duu ggdG
+" nnoremap cuu ggcG
