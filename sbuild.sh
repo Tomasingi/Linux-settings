@@ -14,6 +14,7 @@ sudo cp $WD/usr-bin/brightness-up /usr/bin/brightness-up
 sudo cp $WD/usr-bin/brightness-down /usr/bin/brightness-down
 
 sudo chmod a+x /usr/bin/tilix-startup
+sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
 sudo chmod a+x /usr/bin/brightness-up
 sudo chmod a+x /usr/bin/brightness-down
 
