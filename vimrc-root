@@ -67,6 +67,6 @@ nmap <Space> :
 " noremap u i
 
 " Select all
-" vnoremap uu <Esc>ggVG
-" nnoremap duu ggdG
-" nnoremap cuu ggcG
+vnoremap uu <Esc>ggVG
+nnoremap duu ggdG
+nnoremap cuu ggcG

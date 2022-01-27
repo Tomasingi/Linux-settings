@@ -41,5 +41,25 @@
             ]
         }
     ],
-    "vim.foldfix": true
+    "vim.foldfix": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [" "],
+            "after": [":"]
+        },
+        {
+            "before": ["d", "u", "u"],
+            "after": ["g", "g", "d", "G"]
+        },
+        {
+            "before": ["c", "u", "u"],
+            "after": ["g", "g", "c", "G"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["u", "u"],
+            "after": ["<Esc>", "g", "g", "V", "G"]
+        }
+    ]
 }
