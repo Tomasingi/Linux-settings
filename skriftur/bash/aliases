@@ -6,7 +6,7 @@ source ~/.bash_completion.d/complete_alias
 
 # Directories
 alias sk="cd ~/Desktop"
-alias keys="cd /usr/share/X11/xkb"
+alias keys="cd /usr/share/X11/xkb/symbols"
 
 # Applications
 alias nt="nautilus ."

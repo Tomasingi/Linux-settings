@@ -41,6 +41,9 @@
             ]
         }
     ],
+    "latex-workshop.message.information.show": false,
+    "latex-workshop.message.warning.show": false,
+    "latex-workshop.message.error.show": false,
     "vim.foldfix": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         {
