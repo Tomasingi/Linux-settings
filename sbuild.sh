@@ -7,7 +7,7 @@
 WD="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 # sudo scripts
-sudo cp $WD/vimrc-root /etc/vim/vimrc
+sudo cp $WD/vim/vimrc-root /etc/vim/vimrc
 
 sudo cp $WD/usr-bin/tilix-startup /usr/bin/tilix-startup
 sudo cp $WD/usr-bin/brightness-up /usr/bin/brightness-up

@@ -9,5 +9,5 @@ cp $WD/profile ~/.profile
 cp $WD/bashrc ~/.bashrc
 cp -TR $WD/skriftur ~/.skriftur
 
-cp $WD/vimrc ~/.vimrc
+cp $WD/vim/vimrc ~/.vimrc
 cp $WD/vscode/settings.json ~/.config/Code/User/settings.json
