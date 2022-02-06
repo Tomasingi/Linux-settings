@@ -12,6 +12,7 @@ alias keys="cd /usr/share/X11/xkb/symbols"
 alias nt="nautilus ."
 alias op="xdg-open"
 complete -F _complete_alias op
+alias idea="~/idea-IC-213.6777.52/bin/idea.sh"
 
 # Vim
 alias as="vim ~/Linux-settings/skriftur/bash/aliases"

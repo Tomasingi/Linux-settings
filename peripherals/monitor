@@ -1,6 +1,6 @@
-# Commands for setting the monitor display size
+# Set the monitor display size
 
-cvt 2560 1440
+# cvt 2560 1440
 sudo xrandr --newmode "2560x1440_60.00"  312.25  2560 2752 3024 3488  1440 1443 1448 1493 -hsync +vsync
 sudo xrandr --addmode DP-3 "2560x1440_60.00"
 

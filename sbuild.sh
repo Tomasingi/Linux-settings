@@ -18,5 +18,7 @@ sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
 sudo chmod a+x /usr/bin/brightness-up
 sudo chmod a+x /usr/bin/brightness-down
 
+sudo chmod a+x $WD/peripherals/mousekeys
+
 # run build.sh
 ~/Linux-settings/build.sh

@@ -1,6 +1,6 @@
 # Gets and sets the volume step size
 # 6 is default, 2 is same as default + shift
 
-gsettings get org.gnome.settings-daemon.plugins.media-keys volume-step
+# gsettings get org.gnome.settings-daemon.plugins.media-keys volume-step
 
 gsettings set org.gnome.settings-daemon.plugins.media-keys volume-step 2

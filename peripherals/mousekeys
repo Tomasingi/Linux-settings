@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Set mouse speed
+# Format: delay interval time-to-max maxspeed curve
+
+xkbset ma 1 10 40 10 2
