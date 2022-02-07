@@ -14,6 +14,7 @@ sudo cp $WD/usr-bin/brightness-up /usr/bin/brightness-up
 sudo cp $WD/usr-bin/brightness-down /usr/bin/brightness-down
 
 sudo cp $WD/etc/inputrc /etc/inputrc
+sudo cp $WD/etc/blacklist /etc/modprobe.d/blacklist.conf
 
 sudo chmod a+x /usr/bin/tilix-startup
 sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
