@@ -56,3 +56,6 @@ nmap <Space> :
 vnoremap uu <Esc>ggVG
 nnoremap duu ggdG
 nnoremap cuu ggcG
+
+" Disable error noise
+set noerrorbells

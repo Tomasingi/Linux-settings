@@ -1,0 +1,10 @@
+# /etc/inputrc - global inputrc for libreadline
+# See readline(3readline) and `info rluserman' for more information.
+
+# Be 8 bit clean.
+set input-meta on
+set output-meta on
+
+# do not bell on tab-completion
+set bell-style none
+# set bell-style visible

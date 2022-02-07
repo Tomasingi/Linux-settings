@@ -20,6 +20,7 @@ alias bs="vim ~/Linux-settings/bashrc"
 alias tm="vim temp"
 
 # TeX
+alias ltx="code ~/Documents/TeX"
 alias tx="pdflatex"
 complete -F _complete_alias tx
 
