@@ -72,4 +72,5 @@ nnoremap duu ggdG
 nnoremap cuu ggcG
 
 " Disable error noise
+set visualbell
 set noerrorbells

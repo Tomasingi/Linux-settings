@@ -23,4 +23,4 @@ sudo chmod a+x /usr/bin/brightness-down
 sudo chmod a+x $WD/peripherals/mousekeys
 
 # run build.sh
-~/Linux-settings/build.sh
+$WD/build.sh

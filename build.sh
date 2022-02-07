@@ -11,3 +11,6 @@ cp -TR $WD/skriftur ~/.skriftur
 
 cp $WD/vim/vimrc ~/.vimrc
 cp $WD/vscode/settings.json ~/.config/Code/User/settings.json
+
+# update, for good measure
+$WD/update.sh
