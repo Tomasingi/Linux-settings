@@ -12,16 +12,13 @@ sudo cp $WD/vim/vimrc-root /etc/vim/vimrc
 sudo cp $WD/usr-bin/tilix-startup /usr/bin/tilix-startup
 sudo cp $WD/usr-bin/brightness-up /usr/bin/brightness-up
 sudo cp $WD/usr-bin/brightness-down /usr/bin/brightness-down
+sudo cp $WD/usr-bin/mousekeys /usr/bin/mousekeys
+sudo cp $WD/usr-bin/update-lsettings /usr/bin/update-lsettings
 
 sudo cp $WD/etc/inputrc /etc/inputrc
 sudo cp $WD/etc/blacklist /etc/modprobe.d/blacklist.conf
 
-sudo chmod a+x /usr/bin/tilix-startup
-sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
-sudo chmod a+x /usr/bin/brightness-up
-sudo chmod a+x /usr/bin/brightness-down
-
-sudo chmod a+x $WD/peripherals/mousekeys
+sudo chmod a+x /usr/bin/update-lsettings
 
 # run build.sh
 $WD/build.sh

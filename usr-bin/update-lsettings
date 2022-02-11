@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Updates; should be run regularly as a background job
+
+# Directory of this script
+WD="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+
+sudo chmod a+x /usr/bin/tilix-startup
+sudo chmod a+rw /sys/class/backlight/intel_backlight/brightness
+sudo chmod a+x /usr/bin/brightness-up
+sudo chmod a+x /usr/bin/brightness-down
+sudo chmod a+x /usr/bin/mousekeys
+
+mousekeys
