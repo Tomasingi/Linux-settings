@@ -30,7 +30,8 @@ es() {
 
 zippo() {
 	unzip \*.zip
-	rm \*.zip
+	sleep 1
+	rm *.zip
 }
 
 brains() {
