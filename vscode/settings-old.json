@@ -20,6 +20,27 @@
     "window.zoomLevel": 0,
     "files.trimTrailingWhitespace": true,
     "workbench.editor.untitled.hint": "hidden",
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "--shell-escape",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%.tex"
+            ]
+        }
+    ],
     "latex-workshop.message.information.show": false,
     "latex-workshop.message.warning.show": false,
     "latex-workshop.message.error.show": false,

@@ -30,7 +30,6 @@ es() {
 
 zippo() {
 	unzip \*.zip
-	sleep 1
 	rm *.zip
 }
 

@@ -53,9 +53,9 @@ nmap <Space> :
 " noremap u i
 
 " Select all
-vnoremap uu <Esc>ggVG
-nnoremap duu ggdG
-nnoremap cuu ggcG
+vnoremap ii <Esc>ggVG
+nnoremap dii ggdG
+nnoremap cii ggcG
 
 " Disable error noise
 set noerrorbells
