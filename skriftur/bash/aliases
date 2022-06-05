@@ -12,7 +12,6 @@ alias keys="cd /usr/share/X11/xkb/symbols"
 alias nt="nautilus ."
 alias op="xdg-open"
 complete -F _complete_alias op
-alias idea="~/idea-IC-213.6777.52/bin/idea.sh"
 
 # Vim
 alias as="vim ~/Linux-settings/skriftur/bash/aliases"
@@ -23,6 +22,9 @@ alias tm="vim temp"
 alias ltx="code ~/Documents/TeX"
 alias tx="pdflatex"
 complete -F _complete_alias tx
+
+# Minecraft server
+alias mserver="java -Xmx1024M -Xms1024M -jar server.jar nogui"
 
 # Misc
 alias c="xclip -selection clipboard"
