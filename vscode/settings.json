@@ -44,6 +44,10 @@
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
+            "before": [" "],
+            "after": [":"]
+        },
+        {
             "before": ["i", "i"],
             "after": ["<Esc>", "g", "g", "V", "G"]
         }
