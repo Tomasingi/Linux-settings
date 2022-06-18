@@ -25,7 +25,7 @@ es() {
 }
 
 -() {
-	cd -
+	cd - > /dev/null
 }
 
 zippo() {
