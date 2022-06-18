@@ -1,0 +1,5 @@
+# decrypt:
+mount -t ecryptfs [directory] [directory]
+
+# encrypt:
+umount [directory]
