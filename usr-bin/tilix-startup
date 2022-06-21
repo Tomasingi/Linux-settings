@@ -1,3 +1,9 @@
 #!/bin/bash
 
-tilix --session ~/.config/tilix.json --geometry 100x100-0+0
+TERMINAL_STRING="Tilix: Terminal"
+
+if [ -n "$(wmctrl -l | grep "$TERMINAL_STRING")" ]; then
+	wmctrl -a $TERMINAL_STRING
+else
+	tilix --session ~/.config/tilix.json --geometry 100x100+0-0
+fi
