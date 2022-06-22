@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TERMINAL_STRING="Tilix: Terminal"
+TERMINAL_STRING="Tilix:"
 
 if [ -n "$(wmctrl -l | grep "$TERMINAL_STRING")" ]; then
 	wmctrl -a $TERMINAL_STRING
