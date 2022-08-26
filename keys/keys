@@ -71,3 +71,16 @@ Workman
     key <AB10> { [ slash, question, questiondown, questiondown ] };
 
     include "level3(ralt_switch)"
+
+-jp-
+
+//    key <CAPS> { [ Eisu_toggle, Caps_Lock ] };
+
+//    key <LCTL> { [ Control_L		] };
+
+//    key <CAPS> { [ Eisu_toggle, Caps_Lock ] };
+
+//    key <AC12> { [ bracketright, braceright ] };
+    key <AC12> { [ backslash, braceright ] };
+
+//    key <LCTL> { [ Control_L		] };
