@@ -3,6 +3,8 @@
 # Completion stuff
 source ~/.bash_completion.d/complete_alias
 
+# Linux settings
+alias lsettings="code ~/Linux-settings"
 
 # Directories
 alias sk="cd ~/Desktop"
@@ -19,7 +21,7 @@ alias bs="vim ~/Linux-settings/bashrc"
 alias tm="vim temp"
 
 # TeX
-alias ltx="code ~/Documents/TeX"
+alias ltx="code ~/Documents/tex"
 alias tx="pdflatex"
 complete -F _complete_alias tx
 
@@ -39,3 +41,7 @@ alias l='ls'
 # Build
 alias sv="~/Linux-settings/build.sh"
 alias ssv="~/Linux-settings/sbuild.sh"
+
+# Python venv
+alias snek="source ~/snek/bin/activate"
+alias fishingderby="source ~/.virtualenvs/fishingderby/bin/activate"
