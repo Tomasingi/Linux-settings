@@ -44,4 +44,5 @@ alias ssv="~/Linux-settings/sbuild.sh"
 
 # Python venv
 alias snek="source ~/snek/bin/activate"
-alias fishingderby="source ~/.virtualenvs/fishingderby/bin/activate"
+alias fishing7="source ~/.virtualenvs/fishingderby/bin/activate"
+alias fishing6="source ~/.virtualenvs/fishingderby3.6/bin/activate"

@@ -73,3 +73,7 @@ set -o vi
 
 eval "$(starship init bash)"
 for f in ~/.skriftur/bash/*; do source "$f"; done
+
+export PYTHONPATH="${PYTHONPATH}:/home/tomas/forritun/python/HVS_stundatoflur/lib"
+
+shopt -s dotglob
