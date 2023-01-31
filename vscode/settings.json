@@ -1,6 +1,6 @@
 {
     "workbench.colorTheme": "Default Dark+",
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "explorer.confirmDelete": false,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -28,28 +28,12 @@
         {
             "before": [" "],
             "after": [":"]
-        },
-        {
-            "before": ["d", "i", "i"],
-            "after": ["g", "g", "d", "G"]
-        },
-        {
-            "before": ["c", "i", "i"],
-            "after": ["g", "g", "c", "G"]
-        },
-        {
-            "before": ["y", "i", "i"],
-            "after": ["g", "g", "y", "G"]
         }
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
             "before": [" "],
             "after": [":"]
-        },
-        {
-            "before": ["i", "i"],
-            "after": ["<Esc>", "g", "g", "V", "G"]
         }
     ]
 }
