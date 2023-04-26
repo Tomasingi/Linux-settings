@@ -10,8 +10,7 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-    "jupyter.defaultCellMarker": "#--",
-    "python.defaultInterpreterPath": "~/snek/bin/python3",
+    "python.defaultInterpreterPath": "~/.virtualenvs/snek/bin/python3",
     "window.title": "${dirty}💩 ${activeEditorShort}",
     "editor.linkedEditing": true,
     "editor.rulers": [80],
@@ -35,5 +34,19 @@
             "before": [" "],
             "after": [":"]
         }
-    ]
+    ],
+    "jupyter.interactiveWindow.cellMarker.default": "#--",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "workbench.activityBar.visible": false,
+    "window.menuBarVisibility": "toggle"
 }
