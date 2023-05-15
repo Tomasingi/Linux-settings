@@ -26,7 +26,7 @@ alias tx="pdflatex"
 complete -F _complete_alias tx
 
 # Minecraft server
-alias mserver="java -Xmx1024M -Xms1024M -jar server.jar nogui"
+alias mserver="cd ~/minecraft_server && java -Xmx1024M -Xms1024M -jar server.jar nogui"
 
 # Misc
 alias c="xclip -selection clipboard"

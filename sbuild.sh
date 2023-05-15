@@ -20,5 +20,8 @@ sudo cp $WD/etc/blacklist /etc/modprobe.d/blacklist.conf
 
 sudo chmod a+x /usr/bin/update-lsettings
 
+# update, for good measure
+/usr/bin/update-lsettings
+
 # run build.sh
 $WD/build.sh

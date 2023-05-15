@@ -11,7 +11,7 @@
         "**/.factorypath": true
     },
     "python.defaultInterpreterPath": "~/.virtualenvs/snek/bin/python3",
-    "window.title": "${dirty}💩 ${activeEditorShort}",
+    "window.title": "${dirty}💩 ${rootName}",
     "editor.linkedEditing": true,
     "editor.rulers": [80],
     "jupyter.askForKernelRestart": false,
