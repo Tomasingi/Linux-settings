@@ -48,3 +48,10 @@ alias fishing7="source ~/.virtualenvs/fishingderby/bin/activate"
 alias fishing6="source ~/.virtualenvs/fishingderby3.6/bin/activate"
 alias kthqa="source ~/.virtualenvs/kthqa/bin/activate"
 alias osmpy="source ~/.virtualenvs/osmpy/bin/activate"
+alias dlds="source ~/.virtualenvs/dlds/bin/activate"
+alias hvsenv="source ~/.virtualenvs/hvsenv/bin/activate"
+
+# Heilsugreind
+alias lsh01="ssh heilsugreind-tomasi@sldaheilsugr01.lsh.is"
+alias lsh02="ssh heilsugreind-tomasi@sldaheilsugr02.lsh.is"
+alias lsh03="ssh heilsugreind-tomasi@sldaheilsugr03.lsh.is"
