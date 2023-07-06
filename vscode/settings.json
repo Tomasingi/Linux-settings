@@ -36,6 +36,9 @@
         }
     ],
     "jupyter.interactiveWindow.cellMarker.default": "#--",
+    "jupyter.jupyterCommandLineArguments": [
+        "--allow-root"
+    ],
     "[python]": {
         "editor.formatOnType": true
     },
