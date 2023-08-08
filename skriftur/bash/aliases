@@ -11,7 +11,7 @@ alias sk="cd ~/Desktop"
 alias keys="cd /usr/share/X11/xkb/symbols"
 
 # Applications
-alias nt="nautilus ."
+alias nt="xdg-open ."
 alias op="xdg-open"
 complete -F _complete_alias op
 
