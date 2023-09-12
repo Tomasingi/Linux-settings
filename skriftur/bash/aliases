@@ -9,6 +9,7 @@ alias lsettings="code ~/Linux-settings"
 # Directories
 alias sk="cd ~/Desktop"
 alias keys="cd /usr/share/X11/xkb/symbols"
+alias kth="cd ~/Documents/kth/ht_2023"
 
 # Applications
 alias nt="xdg-open ."
@@ -55,3 +56,6 @@ alias hvsenv="source ~/.virtualenvs/hvsenv/bin/activate"
 alias lsh01="ssh heilsugreind-tomasi@sldaheilsugr01.lsh.is"
 alias lsh02="ssh heilsugreind-tomasi@sldaheilsugr02.lsh.is"
 alias lsh03="ssh heilsugreind-tomasi@sldaheilsugr03.lsh.is"
+
+# Inviwo
+alias inviwo="~/forritun/inviwo-output/bin/Inviwo"
