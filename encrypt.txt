@@ -1,7 +1,7 @@
 # decrypt:
 sudo mount -t ecryptfs [directory] [directory]
 
-# aes - 32 bytes - n - n
+# aes | 32 bytes | n | n
 
 # encrypt:
 sudo umount [directory]
