@@ -10,10 +10,12 @@ alias lsettings="code ~/Linux-settings"
 alias sk="cd ~/Desktop"
 alias keys="cd /usr/share/X11/xkb/symbols"
 alias kth="cd ~/Documents/kth/ht_2023"
+alias telus="cd ~/Documents/vinna/telus"
 
 # Applications
 alias nt="xdg-open ."
 alias op="xdg-open"
+alias oo="op ~/Documents/O_o/O_o.xlsx"
 complete -F _complete_alias op
 
 # Vim
@@ -33,6 +35,7 @@ alias mserver="cd ~/minecraft_server && java -Xmx1024M -Xms1024M -jar server.jar
 alias c="xclip -selection clipboard"
 alias v="xclip -o -selection clipboard"
 alias cl="clear"
+alias slep="snek && python ~/forritun/slep.py"
 
 # ls
 alias ll='ls -alF'
