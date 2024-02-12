@@ -9,7 +9,7 @@ alias lsettings="code ~/Linux-settings"
 # Directories
 alias sk="cd ~/Desktop"
 alias keys="cd /usr/share/X11/xkb/symbols"
-alias kth="cd ~/Documents/kth/ht_2023"
+alias kth="cd ~/Documents/kth/vt_2024"
 alias telus="cd ~/Documents/vinna/telus"
 
 # Applications
@@ -50,9 +50,7 @@ alias ssv="~/Linux-settings/sbuild.sh"
 alias snek="source ~/.virtualenvs/snek/bin/activate"
 alias fishing7="source ~/.virtualenvs/fishingderby/bin/activate"
 alias fishing6="source ~/.virtualenvs/fishingderby3.6/bin/activate"
-alias kthqa="source ~/.virtualenvs/kthqa/bin/activate"
 alias osmpy="source ~/.virtualenvs/osmpy/bin/activate"
-alias dlds="source ~/.virtualenvs/dlds/bin/activate"
 alias hvsenv="source ~/.virtualenvs/hvsenv/bin/activate"
 
 # Heilsugreind
