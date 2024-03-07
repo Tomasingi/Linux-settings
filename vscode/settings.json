@@ -22,7 +22,7 @@
     "latex-workshop.message.information.show": false,
     "latex-workshop.message.warning.show": false,
     "latex-workshop.message.error.show": false,
-    "vim.foldfix": true,
+    "vim.foldfix": false,
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [" "],
@@ -45,9 +45,6 @@
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
         "*": true,
-        "yaml": false,
-        "plaintext": false,
-        "markdown": true,
         "scminput": false
     },
     "workbench.activityBar.visible": false,
