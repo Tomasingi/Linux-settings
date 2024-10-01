@@ -1,0 +1,36 @@
+# Insert your preferred key mappings here.
+
+# Colemak
+# map n scrollDown
+# map e scrollUp
+# map N previousTab
+# map E nextTab
+# map i scrollRight
+# map I goForward
+# map t LinkHints.activateMode
+# map T LinkHints.activateModeToOpenInNewTab
+# map f createTab
+# map F Vomnibar.activateTabSelection
+# unmap j
+# unmap J
+# unmap k
+# unmap K
+# unmap l
+# unmap L
+
+map e createTab
+map E Vomnibar.activateTabSelection
+map t visitPreviousTab
+map < moveTabLeft
+map > moveTabRight
+unmap <<
+unmap >>
+unmap T
+unmap <^>
+unmap v
+unmap V
+unmap m
+
+unmap <c-e>
+unmap <c-y>
+unmap /

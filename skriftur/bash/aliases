@@ -9,7 +9,7 @@ alias lsettings="code ~/Linux-settings"
 # Directories
 alias sk="cd ~/Desktop"
 alias keys="cd /usr/share/X11/xkb/symbols"
-alias kth="cd ~/Documents/kth/vt_2024"
+alias kth="cd ~/Documents/kth/vt_2024/degree_project"
 alias telus="cd ~/Documents/vinna/telus"
 
 # Applications
@@ -36,6 +36,7 @@ alias c="xclip -selection clipboard"
 alias v="xclip -o -selection clipboard"
 alias cl="clear"
 alias slep="snek && python ~/forritun/slep.py"
+alias hvs="code ~/Documents/vinna/hvs/HVS_stundatoflur"
 
 # ls
 alias ll='ls -alF'
