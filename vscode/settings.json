@@ -48,5 +48,7 @@
         "scminput": false
     },
     "workbench.activityBar.visible": false,
-    "window.menuBarVisibility": "toggle"
+    "window.menuBarVisibility": "toggle",
+    "files.insertFinalNewline": true,
+    "workbench.tips.enabled": false
 }
