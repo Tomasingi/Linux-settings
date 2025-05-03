@@ -55,6 +55,7 @@ alias osmpy="source ~/.virtualenvs/osmpy/bin/activate"
 alias hvsenv="source ~/.virtualenvs/hvsenv/bin/activate"
 alias hvs2="source ~/.virtualenvs/hvs2/bin/activate"
 alias kthenv="source ~/.virtualenvs/kthdegreeproject/bin/activate"
+alias pdash="source ~/.virtualenvs/dash/bin/activate"
 
 # Heilsugreind
 alias lsh01="ssh heilsugreind-tomasi@sldaheilsugr01.lsh.is"
