@@ -46,6 +46,7 @@ Workman
     key <AD03> { [ e, E, eacute, Eacute ] };
     key <AD04> { [ r, R, yacute, Yacute ] };
     key <AD05> { [ t, T, odiaeresis, Odiaeresis ] };
+    key <AD06> { [ y, Y, dead_macron, dead_macron ] };
     key <AD07> { [ u, U, uacute, Uacute ] };
     key <AD08> { [ i, I, iacute, Iacute ] };
     key <AD09> { [ o, O, oacute, Oacute ] };
@@ -63,7 +64,7 @@ Workman
     key <BKSL> { [ backslash, bar, U201e, U201c ] };
 
     key <AB01> { [ z, Z, zabovedot, Zabovedot ] };
-    key <AB02> { [ x, X, zacute, Zacute ] };
+    key <AB02> { [ x, X, dead_caron, dead_caron ] };
     key <AB03> { [ c, C, ccedilla, Ccedilla ] };
     key <AB04> { [ v, V, dead_diaeresis, dead_diaeresis ] };
     key <AB06> { [ n, N, ntilde, Ntilde ] };
